@@ -397,7 +397,8 @@ a:hover{
     background: var(--color-primary);
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 2
+    ;
 }
 .contenido9{
     width: 50%;
@@ -429,4 +430,30 @@ a:hover{
     width: 100%;
     height: 100vh;
     background: var(--color-ternario);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.encabezado2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150vh;
+    z-index: 2;
+}
+.menu2{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    width: 50%;
+    z-index: 2;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
