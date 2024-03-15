@@ -443,6 +443,7 @@ footer{
     align-items: center;
     width: 150vh;
     z-index: 2;
+    gap: 20px;
 }
 .menu2{
     display: flex;
@@ -456,4 +457,16 @@ footer{
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+}
+.redes{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    z-index: 2;
+    justify-content: space-around;
+    align-items: center;
+    font-family: normal;
+    background: none;
+    text-decoration: none;
+    list-style: none;
 }
